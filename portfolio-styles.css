@@ -1,0 +1,209 @@
+/* --- General Body --- */
+body {
+    font-family: Arial, sans-serif;
+    text-align: justify;
+    margin: 0;
+    background: linear-gradient(to bottom, #e8eeff, #000000);
+}
+
+/* --- Header --- */
+header {
+    background: linear-gradient(to right, #e83b49, #140116);
+    color: white;
+    text-align: center;
+    position: relative;
+    padding: 40px 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 28px;
+}
+
+/* --- Project topic Card --- */
+.project-topic {
+    max-width: 1075px;
+    margin: 50px auto;
+    background: white;
+    padding: 25px 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.project-topic h2 {
+    color: #3b57e8;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 0;
+}
+
+.project-topic h3 {
+    color: #7928d6;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 0;
+}
+
+.project-topic h4 {
+    color: #c42260;
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 0;
+}
+
+.project-topic p {
+    line-height: 1.6;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.project-topic ul {
+    line-height: 1.6;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+/* --- Topic Frame --- */
+iframe {
+    width: 100%;
+    height: 600px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+/* --- Back Button --- */
+.back-btn {
+    display: block;
+    position: absolute;
+    margin: 0;
+    top: 35px;
+    left: 15px;
+    background: #3b57e8;
+    color: white;
+    padding: 12px 20px;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: 0.3s;
+    width: fit-content;
+}
+
+.back-btn:hover {
+    background: #a615df;
+}
+
+/* --- Download Button --- */
+
+.download-container {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.download-btn {
+    display: inline-block;
+    padding: 12px 25px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.download-btn:hover {
+    background-color: #45a049;
+}
+
+/* --- Image --- */
+
+.image-row {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap; /* allows wrapping on small screens */
+    margin: 20px 0;
+}
+
+.image-box {
+    text-align: center;
+}
+
+.image-box img {
+    width: 250px;      /* adjust size */
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.img-label {
+    margin-top: 8px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Information images */
+
+.info-row {
+    display: flex;
+    flex-direction: row;       /* keeps items side by side */
+    align-items: center;       /* vertically aligns image + text */
+    justify-content: center;
+    gap: 30px;
+    margin: 40px 0;
+    flex-wrap: nowrap;         /* prevents text from going under image */
+}
+
+.info-row img {
+    width: 450px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.info-text {
+    max-width: 500px;
+    text-align: justify;
+}
+
+/* Reverse layout (text left, picture right) */
+.reverse {
+    flex-direction: row-reverse;
+}
+
+/* Number System Table */
+
+.show-table {
+    width: 80%;                 /* makes table narrower and centered */
+    margin: 30px auto;          /* centers the table */
+    border-collapse: collapse;  /* merges borders smoothly */
+    font-size: 16px;
+    text-align: center;         /* center text inside cells */
+}
+
+.show-table th,
+.show-table td {
+    border: 2px solid #3b57e8;  /* visible table cell border */
+    padding: 12px;
+}
+
+.show-table th {
+    background-color: #3b57e8;
+    color: white;
+    font-weight: bold;
+}
+
+.show-table tr:nth-child(even) {
+    background-color: #f5f5f5;
+}
+
+.show-table img {
+    width: 300px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+
+
